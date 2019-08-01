@@ -1,4 +1,55 @@
-# Browsable content of eqgrp-auction-file.tar.xz
+# PREFACE
+This is the merged version of two repo of [EQGRP_Lost_in_Translation](https://github.com/x0rz/EQGRP_Lost_in_Translation) and [EQGRP](https://github.com/x0rz/EQGRP)   
+It's originally stolen from Equation Group (Which is alleged to be an unit of NSA) by [ShadowBrokers](https://steemit.com/@theshadowbrokers)
+
+# EQGRP_Lost_in_Translation
+https://steemit.com/shadowbrokers/@theshadowbrokers/lost-in-translation
+
+## Exploits
+
+- **EARLYSHOVEL** RedHat 7.0 - 7.1 Sendmail 8.11.x exploit 
+- **EBBISLAND (EBBSHAVE)** root RCE via RPC XDR overflow in Solaris 6, 7, 8, 9 & 10 (possibly newer) both SPARC and x86.
+- **ECHOWRECKER** remote Samba 3.0.x Linux exploit. 
+- **EASYBEE** appears to be an MDaemon email server vulnerability
+- **EASYFUN** EasyFun 2.2.0 Exploit for WDaemon / IIS MDaemon/WorldClient pre 9.5.6
+- **EASYPI** is an IBM Lotus Notes exploit  that gets detected as Stuxnet 
+- **EWOKFRENZY** is an exploit for IBM Lotus Domino 6.5.4 & 7.0.2
+- **EXPLODINGCAN** is an IIS 6.0 exploit that creates a remote backdoor
+- **ETERNALROMANCE** is a SMB1 exploit over TCP port 445 which targets XP, 2003, Vista, 7, Windows 8, 2008, 2008 R2, and gives SYSTEM privileges (MS17-010)
+- **EDUCATEDSCHOLAR** is a SMB exploit (MS09-050)
+- **EMERALDTHREAD** is a SMB exploit for Windows XP and Server 2003 (MS10-061)
+- **EMPHASISMINE** is a remote IMAP exploit for IBM Lotus Domino 6.6.4 to 8.5.2
+- **ENGLISHMANSDENTIST** sets Outlook Exchange WebAccess rules to trigger executable code on the client's side to send an email to other users
+- **EPICHERO** 0-day exploit (RCE) for Avaya Call Server
+- **ERRATICGOPHER** is a SMBv1 exploit targeting Windows XP and Server 2003 
+- **ETERNALSYNERGY** is a SMBv3 remote code execution flaw  for Windows 8 and Server 2012 SP0 (MS17-010)
+- **ETERNALBLUE is** a SMBv2 exploit for Windows 7 SP1 (MS17-010)
+- **ETERNALCHAMPION** is a SMBv1 exploit
+- **ESKIMOROLL** is a Kerberos exploit targeting 2000, 2003, 2008 and 2008 R2 domain controllers
+- **ESTEEMAUDIT** is an RDP exploit and backdoor for Windows Server 2003
+- **ECLIPSEDWING** is an RCE exploit for the Server service in Windows Server 2008 and later (MS08-067)
+- **ETRE** is an exploit for IMail 8.10 to 8.22 
+- **ETCETERABLUE** is an exploit for IMail 7.04 to 8.05
+- **FUZZBUNCH** is an exploit framework, similar to MetaSploit
+- **ODDJOB** is an implant builder and C&C server that can deliver exploits for Windows 2000 and later, also not detected by any AV vendors 
+- **EXPIREDPAYCHECK** IIS6 exploit
+- **EAGERLEVER** NBT/SMB exploit for Windows NT4.0, 2000, XP SP1 & SP2, 2003 SP1 & Base Release
+- **EASYFUN** WordClient / IIS6.0 exploit
+- **ESSAYKEYNOTE** 
+- **EVADEFRED**
+
+
+## Utilities
+
+- **PASSFREELY** utility which "Bypasses authentication for Oracle servers"
+- **SMBTOUCH** check if the target is vulnerable to samba exploits like ETERNALSYNERGY, ETERNALBLUE, ETERNALROMANCE 
+- **ERRATICGOPHERTOUCH**  Check if the target is running some RPC
+- **IISTOUCH** check if the running IIS version is vulnerable
+- **RPCOUTCH** get info about windows via RPC
+- **DOPU** used to connect to machines exploited by ETERNALCHAMPIONS
+- **NAMEDPIPETOUCH** Utility to test for a predefined list of named pipes, mostly AV detection. User can add checks for custom named pipes.
+
+# EQGRP
 - Original file: https://mega.nz/#!zEAU1AQL!oWJ63n-D6lCuCQ4AY0Cv_405hX8kn7MEsa1iLH5UjKU
 - Passphrase: `CrDj"(;Va.*NdlnzB9M?@K2)#>deB7mN` (as disclosed by the ShadowBrokers, [source](https://medium.com/@shadowbrokerss/dont-forget-your-base-867d304a94b1))
 - This summary is provided by the community: complaints/credits to `jvoisin` @ `dustri.org` and [@x0rz](https://www.twitter.com/x0rz)
@@ -7,7 +58,7 @@
 
 Nested Tar archives have been uncompressed in the [archive_files](/archive_files) folder.
 
-# Content
+## Content
 # Unknown
 - **JACKLADDER** 
 - **DAMPCROWD**
@@ -16,7 +67,7 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **WATCHER**
 - **YELLOWSPIRIT**
 
-# Misc
+## Misc
 - **DITTLELIGHT (HIDELIGHT)** unhide **NOPEN** window to run unix oracle db scripts
 - **DUL** shellcode packer
 - **egg_timer** execution delayer (equivalent to `at`)
@@ -29,7 +80,7 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **uX_local** Micro X server, likely for remote management
 - **ITIME** Change Date/Time of a last change on a file of an unix filesystem
 
-# Remote Code Execution 
+## Remote Code Execution 
 ## Solaris
 - **CATFLAP** Solaris 7/8/9 (SPARC and Intel) RCE (for a [__LOT__]( https://twitter.com/hackerfantastic/status/850799265723056128 ) of versions)
 - **EASYSTREET**/**CMSEX** and **cmsd** Solaris `rpc.cmsd` remote root
@@ -40,16 +91,16 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **VIOLENTSPIRIT** RCE for ttsession daemon in CDE on Solaris 2.6-2.9 on SPARC and x86
 - **EBBISLAND**  RCE Solaris 2.6 -> 2.10 Inject shellcode in vulnerable rpc service
 
-## Netscape Server
+### Netscape Server
 - **xp_ns-httpd** NetScape Server RCE
 - **nsent** RCE for NetScape Enterprise server 4.1 for Solaris
 - **eggbasket** another NetScape Enterprise RCE, this time version `3.5`, likely SPARC only
 
-## FTP servers
+### FTP servers
 - **EE** proftpd 1.2.8 RCE, for RHL 7.3+/Linux, `CVE-2011-4130`? another reason not to use proftpd
 - **wuftpd** likely `CVE-2001-0550`
 
-## Web 
+### Web 
 - **ESMARKCONANT** exploits phpBB remote command execution (<[2.0.11](https://www.phpbb.com/community/viewtopic.php?t=240636)) `CVE-2004-1315`
 - **ELIDESKEW** Public known vulnerablity in [SquirrelMail](https://squirrelmail.org/) versions 1.4.0 - 1.4.7
 - **ELITEHAMMER** Runs against RedFlag Webmail 4, yields user `nobody`
@@ -57,7 +108,7 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **EPICHERO** RCE for Avaya Media Server
 - **COTTONAXE** RCE to retrieve log and information on LiteSpeed Web Server
 
-## Misc
+### Misc
 - **calserver** spooler RPC based RCE
 - **EARLYSHOVEL** RCE RHL7 using sendmail  ` CVE-2003-0681 ` ` CVE-2003-0694 `
 - **ECHOWRECKER**/**sambal**: samba 2.2 and 3.0.2a - 3.0.12-5 RCE (with *DWARF* symbols), for FreeBSD, OpenBSD 3.1, OpenBSD 3.2 (with a non-executable stack, zomg), and Linux. Likely `CVE-2003-0201`. There is also a Solaris version
@@ -81,7 +132,7 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **CURSEHAPPY** Parser of CDR (Call Detail Records) (siemens, alcatel, other containing isb hki lhr files) probably upgrade of ORLEANSTRIDE
 - **ORLEANSTRIDE** Parser of CDR (Call Detail Records)
 
-# Anti-forensic
+## Anti-forensic
 - **toast**: `wtmps` editor/manipulator/querier
 - **pcleans**: `pacctl` manipulator/cleaner
 - **DIZZYTACHOMETER**: Alters RPM database when system file is changed so that RPM (>4.1) verify doesn't complain 
@@ -89,7 +140,7 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **scrubhands** post-op cleanup tool?
 - **Auditcleaner** cleans up `audit.log`
 
-# Control
+## Control
 ## Iting HP-UX, Linux, SunOS
 - **FUNNELOUT**: database-based web-backdoor for `vbulletin`
 - **hi** UNIX bind shell
@@ -106,15 +157,15 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **STOICSURGEON** Rootkit/Backdoor Linux MultiArchi
 - **INCISION** Rootkit/Backdoor Linux Can be upgrade to StoicSurgeon(more recent version)
 
-## CnC
+### CnC
 - **Seconddate_CnC**: CnC for **SECONDDATE**
 - **ELECTRICSIDE** likely a big-fat-ass CnC
 - **NOCLIENT** Seems to be the CnC for **NOPEN***
 - **DEWDROP** 
 
-# Privesc
+## Privesc
 
-## Linux
+### Linux
 
 - **h**: linux kernel privesc, old-day compiled `hatorihanzo.c`, do-brk() in 2.4.22  [CVE-2003-0961](https://nvd.nist.gov/vuln/detail/CVE-2003-0961)
 - **gsh**: `setreuid(0,0);execl("bash","/bin/bash")`
@@ -127,10 +178,10 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **ESTOPMOONLIT** Linux LPE
 - **EPOXYRESIN** Linux LPE
 
-## AIX
+### AIX
 - **EXCEEDSALON-AIX** privesc
 
-## Others
+### Others
 - **procsuid**: setuid perl (yes, it's a real thing) privesc through unsanitized environnement variables. wtf dude
 - **elatedmonkey**: cpanel privesc (0day) using `/usr/local/cpanel/3rdparty/mailman/`. Creates mailman mailing list: `mailman config_list`
 - **estesfox**: logwatch privesc, [old-day](http://www.securiteam.com/exploits/5OP0S2A6KI.html)
@@ -139,9 +190,3 @@ Nested Tar archives have been uncompressed in the [archive_files](/archive_files
 - **escrowupgrade** cachefsd for solaris 2.6 2.7 sparc
 - **ENGLANDBOGY** local exploit against Xorg X11R7 1.0.1, X11R7 1.0, X11R6 6.9, Includes the following distributions: MandrakeSoft Linux 10.2, Ubuntu 5.0.4, SuSE Linux 10.0, RedHat Fedora Core5, MandrakeSoft Linux 2006.0. requires a setuid Xorg
 - **endlessdonut**: Apache fastcgi privesc
-
-# Interesting stuff
-- [default passwords list](https://github.com/x0rz/EQGRP/blob/33810162273edda807363237ef7e7c5ece3e4100/Linux/etc/.oprc) (courtesy of x0rz)
-
-- [.gov.ru](https://github.com/x0rz/EQGRP/blob/1667dacddf710082a1567e4e481f416876f432b7/archive_files/stoicctrls/stoicctrls/stoicsurgeon_ctrl__v__1.5.13.4_x86-freebsd-5.3) 
- (stoicsurgeon_ctrl__v__1.5.13.5_x86-freebsd-5.3-sassyninja-mail.aprf.gov.ru) (wow!)
