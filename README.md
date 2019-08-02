@@ -1,5 +1,5 @@
 # PREFACE
-This is the merged version of two repo of [EQGRP_Lost_in_Translation](https://github.com/x0rz/EQGRP_Lost_in_Translation) and [EQGRP](https://github.com/x0rz/EQGRP)   
+This is the merged version of two repos of [EQGRP_Lost_in_Translation](https://github.com/x0rz/EQGRP_Lost_in_Translation) and [EQGRP](https://github.com/x0rz/EQGRP)   
 It's originally stolen from Equation Group (Which is alleged to be an unit of NSA) by [ShadowBrokers](https://steemit.com/@theshadowbrokers)
 
 # EQGRP_Lost_in_Translation
